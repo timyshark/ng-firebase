@@ -1,6 +1,10 @@
-# AuthApp
+# ng-firebase
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+in realization of the tutorials published by firebase team and others , this is the list of references:
+1. official firebase angular
+2. https://www.positronx.io/full-angular-7-firebase-authentication-system/
+3.
 
 ## Development server
 

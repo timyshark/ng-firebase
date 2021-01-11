@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-import { TaskComponent } from './task/task.component';
+import { TaskComponent } from './components/task/task.component';
 import { MatCardModule } from '@angular/material/card';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { MatButtonModule } from '@angular/material/button';
-import { TaskDialogComponent } from './task-dialog/task-dialog.component';
+import { TaskDialogComponent } from './components/task-dialog/task-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
@@ -20,8 +20,10 @@ import { environment } from 'src/environments/environment';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
-import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
+import { KanbanComponent } from './components/kanban/kanban.component';
+import { CommonModule } from '@angular/common';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -31,10 +33,12 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
     DashboardComponent,
     SignInComponent,
     SignUpComponent,
-    ForgotPasswordComponent,
-    VerifyEmailComponent
+    VerifyEmailComponent,
+    KanbanComponent,
+    HeaderComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     FormsModule,
     AppRoutingModule,
