@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "alpha-edudate-academy-bc7d0"
+  },
+  "targets": {
+    "alpha-edudate-academy-bc7d0": {
+      "hosting": {
+        "AuthApp": [
+          "alpha-edudate-academy-bc7d0"
+        ]
+      }
+    }
+  }
+}

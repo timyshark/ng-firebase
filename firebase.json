@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/AuthApp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
